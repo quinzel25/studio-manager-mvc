@@ -25,7 +25,8 @@ public class ArtistDAOImpl implements ArtistDAO{
 		// get the current hibernate session
 		Session currentSession = sessionFactory.getCurrentSession();
 		
-		Query<Artist> theQuery = currentSession.createQuery("from Artist order by name", Artist.class);
+		Query<Artist> theQuery = currentSession
+				.createQuery("from Artist order by name", Artist.class);
 		// execute query and get result list
 		List<Artist> artists = theQuery.getResultList();
 		// return the results	

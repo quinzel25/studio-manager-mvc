@@ -18,7 +18,7 @@ public class ArtistServiceImpl implements ArtistService {
 	@Override
 	@Transactional
 public List<Artist> getArtists() {
-		
+		//calls and returns the DAO methods
 		return artistDAO.getArtists();
 	}
 

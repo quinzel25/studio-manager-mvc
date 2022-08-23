@@ -101,7 +101,7 @@
             <div class="card-body">
                 <h5 class="card-title">About</h5>
                 <p id="white" class="card-text">Underground Pine Studios was created by a group of friends that just liked making music for fun.
-                    They wanted to get their music out there for people to hear it but frankly, they were all broke as shit. 
+                    They wanted to get their music out there for people to hear it but frankly, they were all really broke. 
                     Studio time was just not going to happened. So they decided to start learning about audio production. 
                     They slowly grew their gear and knowledge to what it is today. Keep rocking and stay humble.  </p>
                

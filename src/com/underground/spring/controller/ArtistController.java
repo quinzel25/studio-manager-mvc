@@ -24,16 +24,18 @@ import com.underground.spring.service.ArtistService;
 @Controller
 @RequestMapping("/artist")
 public class ArtistController {
-	
+	// calls artist service
 	@Autowired
 	private ArtistService artistService;
 	
+	// end-point mapping
 	@GetMapping("/list")
 	public String listArtists(Model theModel) {
+		// calls the method getArtists using service and put into new list
 		List<Artist> theArtists = artistService.getArtists();
-		
+		// sends the list to the model
 		theModel.addAttribute("artists", theArtists);
-		
+		// directs you to .jsp page
 		return "artist";
 	}
 	
